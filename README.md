@@ -1,3 +1,3 @@
-# ClientProject_Team-1
+# Client Project Team 1
 Hackathon client project for team 1
-TBH
+## Jolt at TU Business
