@@ -1,0 +1,130 @@
+/*#002f5b created by emily mathew on 2/10/17*/
+
+
+/*html*/
+
+h1 {
+	color: #28001d;
+	text-decoration: none;
+}
+
+h2 {
+	background: #87f1e7;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+h3 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: 28001d;
+}
+h4 {
+	font-size: 18px;
+	color: #28001d;
+}
+body {
+	background: #002f5b;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+em {
+	font-size: 18px;
+}
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+/*div tags*/
+
+#wrapper {
+	background: #FFF;
+	padding: 20px;
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#navbarWrapper {
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+#dates {
+	text-align: left;
+	border-width: 2px;
+	border-style: solid;
+	padding: 10px;
+	width: 350px;
+	float: none;
+	margin-left: 160px;
+}
+
+/*classes*/
+
+.workCited {
+	font: 18px "Times New Roman", Times, serif;
+	text-align: center;
+}
+.bannerCenter {
+	text-align: center;
+}
+
+.contactCenter {
+	text-align: center;
+}
+
+/*links*/
+
+a:link {
+	color: #f73e5e;
+	text-decoration: underline;
+}
+a:hover {
+	color: #87f1e7;
+	text-decoration: none;
+
+}
+a:visited {
+	color: #28001d;
+	text-decoration: underline;
+}
+
+/*navbar*/
+
+#navbar {
+	background: green;
+	width: 100%;
+	font-size: 16px;
+}
+#navbar ul {
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+#navbar ul li {
+	text-align: center;
+	float: left;
+	width: 25%;
+	list-style: none;
+}
+#navbar a {
+	color: #f73e5e;
+	text-decoration: none;
+	background: #ffffff;
+	display: block;
+	padding: 5px;
+}
+#navbar a:hover {
+	color: #c5ab71;
+	text-decoration: none;
+	background: #87f1e7;
+}
+#navbar a:active {
+	color: #28001d;
+	background: white;
+}
+.credentials {
+	font-size: 14px;
+	font-style: italic;
+}
