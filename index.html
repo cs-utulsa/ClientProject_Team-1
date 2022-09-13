@@ -1,271 +1,116 @@
-<style>
-* {box-sizing: border-box;}
-ul {list-style-type: none;}
-body {font-family: Verdana, sans-serif;}
+<!DOCTYPE html>
 
-.month {
-  padding: 70px 25px;
-  width: 100%;
-  background: #002f5b;
-  text-align: center;
-}
-
-.month ul {
-  margin: 0;
-  padding: 0;
-}
-
-.month ul li {
-  color: white;
-  font-size: 20px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-}
-
-.month .prev {
-  float: left;
-  padding-top: 10px;
-}
-
-.month .next {
-  float: right;
-  padding-top: 10px;
-}
-
-.weekdays {
-  margin: 0;
-  padding: 10px 0;
-  background-color: #ddd;
-}
-
-.weekdays li {
-  display: inline-block;
-  width: 13.6%;
-  color: #666;
-  text-align: center;
-}
-
-.days {
-  padding: 10px 0;
-  background: #eee;
-  margin: 0;
-}
-
-.days li {
-  list-style-type: none;
-  display: inline-block;
-  width: 13.6%;
-  text-align: center;
-  margin-bottom: 5px;
-  font-size:12px;
-  color: #777;
-}
-
-.days li .active {
-  padding: 5px;
-  background: #002f5b;
-  color: white !important
-}
-
-/* Add media queries for smaller screens */
-@media screen and (max-width:720px) {
-  .weekdays li, .days li {width: 13.1%;}
-}
-
-@media screen and (max-width: 420px) {
-  .weekdays li, .days li {width: 12.5%;}
-  .days li .active {padding: 2px;}
-}
-
-@media screen and (max-width: 290px) {
-  .weekdays li, .days li {width: 12.2%;}
-}
-</style>
-<!DOCTYPE HTML>
-<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Index- Emily Mathew</title>
-<link href="hola/hola.css" rel="stylesheet" type="text/css">
-<!-- Created by emily mathew on 2/9/2017-->
+<!--This page was created by Emily Mathew on 1/9/2017 -->
+
+
+<title>The 7 Wonders of the World</title>
+
+<link href="wonders.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-<div class="bannerCenter"><img src="hola/hola.jpg" alt="Bannar" width="700" height="208">
-</div>
-<div id="navbarWrapper">
-  <div id="navbar">
-    <ul>
-      
-      <li><a href="#dates2"><u>Home</u></a></li>
-      <li><a href="#about"><u>Points</u></a></li>
-      <li><a href="#apply"><u>Calendar</u></a></li>
-      <li><a href="#contact"><u>Contact</u></a></li>
-      
-     </ul>
-     </div>
-   </div>
 <div id="wrapper">
-
-  <p align=center><em><a name="dates2"></a>A center for students to take calculated risks,<br> grow their talents, and discover their true potential.</em></p>
-<div id="dates">
-  	<h4>Tutoring Sessions</h4>
-    <ul>
-      <li>Room P109</li>
-      <li>Every Tuesday and Thursday</li>
-      <li>The portables are located in the  parking lot</li>
-    </ul>
-</div>
-	<hr>
-	<h2><a name="about"></a>About Us</h2>
-<!-- add points stuff here-->
-	<h3>Who are we?</h3>
-	<p>We are a student-run peer-tutoring organization, sponsored by Mr. Crouch, dedicated to providing resources to the ESL students at PESH through biweekly tutoring sessions. We also offer Volunteer hours for tutors.</p>
-
-  <h3>Where we are</h3>
-	<p>Currently, we are located at Plano East Senior High School. But due to our apparent success, we have begun  this tutoring program at other schools like Armstrong Middle School.</p>
-
-  <h3>Why we are important</h3>
-	<p>Peer tutoring provides a chance to help a student who may be struggling academically. Moreover, it is an opportunity to step outside of one's comfort zone, meet new people, and make new experiences.</p>
-  <hr>
-	<h2><a name="apply"></a>Sign Up</h2>
   
-  <h1>CSS Calendar</h1>
-
-<div class="month">      
+  
+  
+  <h1><a name="Top"></a>The <span class="bignumber">7</span> Wonders of the World</h1>
+  
+  <img src="colossus_caption.jpg" alt="Colossus of Rhodes" width="154" height="279" class="imgRight"><!-- Insert image: colossus_caption.jpg here. Alt text "Colossus of Rhodes" apply .imgRight style  -->  
+  <p class="hilight"> The <strong>Seven Wonders of the World</strong> (or the Seven Wonders of the Ancient World) is a widely-known list of seven remarkable constructions of classical antiquity. The earliest known version of the list was compiled in the 2nd century BC by Antipater of Sidon; it appears to be based on the guide-books popular among Hellenic sight-seers and only includes works located around the Mediterranean rim.  </p>
+  <p>Listed in order of their construction, the seven wonders are:</p>
   <ul>
-    <li class="prev">&#10094;</li>
-    <li class="next">&#10095;</li>
-    <li>
-      August<br>
-      <span style="font-size:18px">2021</span>
-    </li>
-  </ul>
-</div>
-
-<ul class="weekdays">
-  <li>Mo</li>
-  <li>Tu</li>
-  <li>We</li>
-  <li>Th</li>
-  <li>Fr</li>
-  <li>Sa</li>
-  <li>Su</li>
-</ul>
-
-<ul class="days">  
-  <li>1</li>
-  <li>2</li>
-  <li>3</li>
-  <li>4</li>
-  <li>5</li>
-  <li>6</li>
-  <li>7</li>
-  <li>8</li>
-  <li>9</li>
-  <li><span class="active">10</span></li>
-  <li>11</li>
-  <li>12</li>
-  <li>13</li>
-  <li>14</li>
-  <li>15</li>
-  <li>16</li>
-  <li>17</li>
-  <li>18</li>
-  <li>19</li>
-  <li>20</li>
-  <li>21</li>
-  <li>22</li>
-  <li>23</li>
-  <li>24</li>
-  <li>25</li>
-  <li>26</li>
-  <li>27</li>
-  <li>28</li>
-  <li>29</li>
-  <li>30</li>
-  <li>31</li>
-</ul>
+    <li><a href="#Giza">Great Pyramid of Giza</a></li>
+    <li><a href="#Babylon">Hanging Gardens of Babylon</a></li>
+    <li><a href="#Artemis">Temple of Artemis</a></li>
+    <li><a href="#Zeus">Statue of Zeus at Olympia</a></li>
+    <li><a href="#Mausoleum">Mausoleum of Maussollos</a></li>
+    <li><a href="#Colossus">Colossus of Rhodes</a><a href="#Mausoleum"></a></li>
+    <li><a href="#Lighthouse">Lighthouse of Alexandria</a></li>
+    </ul>
+  <p>Antipater's original list replaced the Lighthouse of Alexandria with  the Walls of Babylon. It wasn't until the 6th century AD that the list  above was used. Of these wonders, the only one that has survived to the  present day is the Great Pyramid of Giza. The existence of the Hanging  Gardens has not been definitively proven. Records show that the other  five wonders were destroyed by natural disasters. The Temple of Artemis  and the Statue of Zeus were destroyed by fire, while the Lighthouse of  Alexandria, Colossus, and Mausoleum of Maussollos, were destroyed by  earthquakes.</p>
+  <p>In the tradition of the Seven Wonders of the Ancient World, many other  lists of wonders have been proposed, including both human feats of  engineering and wonders of nature. However, these lists are rather  informal, and there is no consensus on any particular list. <a href="https://new7wonders.com/">The New 7 Wonders Foundation</a> has launched a poll to decide another new  list of 7 Wonders.</p>
   
   
+  <h2><a name="Giza"></a><span class="bignumber">1</span>. Great Pyramid of Giza </h2>
+  <p class="hilight"><em>2550 B.C. 
+  </em></p>
   
-	<p>Join the HOLA Remind for updates by texting 81010 @peshhola or email us at contactholaclub@gmail.com. We have posted a SignUp Genius with information on how to sign up.</p>
-	<p>In order to become a peer-tutor, complete the application after signing up for HOLA.</p>
-	<p> <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUx58C6qr6E1XzU9sAOimrI2pnOPGMN30vpEB1bXaVBJnBRQ/viewform?usp=sf_link">Tutoring Profile</a></p>
-<hr>
-	<h2><a name="contact"></a>Contact Info</h2>
-	<p>If you are a student or a student tutor, contact us at <a href="mailto:contactholaclub@gmail.com">contactholaclub@gmail.com</a> for information about sessions or sign-ups.</p>
-    <div class="contactCenter">
-  <p>Have Questions? Contact our sponsor,</p>
-
-  <p><strong>Mr. Crouch</strong> at <a href="mailto:stephen.crouch@pisd.edu">stephen.crouch@pisd.edu</a></p>
-  <p>&nbsp; </p>
-<p>Or, find our officers,</p>
-
-<center>
-
-<table style="width:50%">
-  <tr>
-    <th>Senior Officers</th>
- 	</tr>
-    
-  <tr>
-    <td>Meghan Mallya</td>
-  </tr>
+  <img src="pyramid.JPG" alt="Great Pyramid of Giza" width="176" height="152" class="imgRight"><!--  Insert pyramid.jpg here. Alt text is "Great Pyramid of Giza". Apply .imgRight style.  -->
   
-  <tr>
-    <td>Anoop Gurram</td>
-  </tr>
+  <p>Believed by mainstream Egyptologists to have been constructed in  approximately 20 years, the most widely accepted estimate for its date  of completion is c. 2560 BC. This date is loosely supported by archaeological findings which have  yet to reveal a civilization (of sufficient population size or  technical ability) older than the fourth dynasty in the area.</p>
+  <p><strong>The Great Pyramid</strong> is the oldest and largest of the three pyramids in the Giza Necropolis bordering what is now Cairo, Egypt in Africa. It is the main part of a complex setting of buildings that  included two mortuary temples in honor of Khufu (one close to the  pyramid and one near the Nile), three smaller pyramids for Khufu's  wives, an even smaller &quot;satellite&quot; pyramid, a raised causeway  connecting the two temples, and small mastaba tombs surrounding the  pyramid for nobles. One of the small pyramids contains the tomb of  queen Hetepheres (discovered in 1925), sister and wife of Sneferu and the mother of  Khufu. There was a town for the workers, including a cemetery,  bakeries, a beer factory and a copper smelting complex. More buildings  and complexes are being discovered by The Giza Mapping Project.</p>
+  <p><a href="#Top">Return to top</a></p>
   
-  <tr>
-    <td>Jordan McMurry</td>
-  </tr>
-    
-  <tr>
-    <td>Quynh-Anh Dang</td>
-  </tr>
   
-    <tr>
-    <td>Quynh-Chi Dang</td>
-	</tr>
-</table>
-</center>
-
-<br>
-<center>
-
-<table style="width:50%">
-  <tr>
-    <th>Underclassmen Officers</th>
- 	</tr>
-    
-  <tr>
-    <td>Maddie Badowski</td>
-  </tr>
+  <h2><a name="Babylon"></a><span class="bignumber">2</span>. Hanging Gardens of Babylon</h2>
+  <p class="hilight"><em>600 B.C.</em></p>
   
-  <tr>
-    <td>Maya Mallya</td>
-  </tr>
+  <img src="babylon.jpg" alt="Hanging Gardens of Babylon" width="176" height="116" class="imgLeft"><!--  Insert babylon.jpg here. Alt text is "Hanging Gardens of Babylon". Apply .imgLeft style.    -->
   
-  <tr>
-    <td>Ronnie Ramos</td>
-  </tr>
-
-  <tr>
-    <td>Vedansh Patel</td>
-  </tr>
-    
-  <tr>
-    <td>Sabeen Wazir</td>
-  </tr>
+  <p>The <strong>Hanging Gardens of Babylon</strong> (also known as the Hanging Gardens of Semiramis) and the walls of Babylon (present-day Iraq) were considered one of the Seven Wonders of the World. They were both supposedly built by Nebuchadnezzar II around 600 BC .</p>
+  <p>The Hanging Gardens are extensively documented by Greek historians such as Strabo and Diodorus Siculus,  but otherwise there is little evidence for their existence. In fact,  there are no Babylonian records of any such gardens having existed.  Some (circumstantial) evidence gathered at the excavation of the palace  at Babylon has accrued, but does not completely substantiate what look  like fanciful descriptions. Some schools of thought think that through  the ages the location may have been confused with gardens that existed  at Nineveh as tablets from there clearly showing gardens have been found. Writings  on these tablets describe the possible use of something similar to an Archimedes' screw as a process of raising the water to the required height. </p>
+  <p><a href="#Top">Return to top</a></p>
   
-</table>
-
-</center>
-
-  </div>
-  <hr>
-    <div class="credentials">This website was created by Emily Mathew, a sophmore who attends PESH.</div>
+  
+  <h2><a name="Artemis"></a><span class="bignumber">3</span>. Temple of Artemis</h2>
+  <p class="hilight"><em>550 B.C.</em></p>
+  
+  <img src="artemis.jpg" alt="Temple of Artemis" width="176" height="132" class="imgRight"><!--  Insert artemis.jpg here. Alt text is "Temple of Artemis".  Apply .imgRight style.  -->
+  
+  <p>The <strong>Temple of Artemis</strong> (Greek: <em>Artemision</em>; Latin: <em>Artemisium</em>), also known as the <strong>Temple of Diana</strong>, was a Greek temple dedicated to Artemis completed around 550 BC at Ephesus (in present-day Turkey) under the Achaemenid dynasty of the Persian Empire. Nothing remains of the original temple, which was considered one of the Seven Wonders of the Ancient World.</p>
+  <p>The temple was a 120-year project started by Croesus of Lydia. It was described by Antipater of Sidon, who compiled a list of the Seven Wonders:</p>
+  
+  <dl><dd><em>I have set eyes on the wall of lofty Babylon on which is a road  for chariots, and the statue of Zeus by the Alpheus, and the hanging  gardens, and the colossus of the Sun, and the huge labour of the high  pyramids, and the vast tomb of Mausolus; but when I saw the house of  Artemis that mounted to the clouds, those other marvels lost their  brilliancy, and I said, 'Lo, apart from Olympus, the Sun never looked  on aught (anything) so grand.&quot;</em> (Antipater, Greek Anthology [IX.58])</dd></dl>
+  
+  <p><a href="#Top">Return to top</a></p>
+  
+  
+  <h2><a name="Zeus"></a><span class="bignumber">4</span>. Statue of Zeus at Olympia</h2>
+  <p class="hilight"><em>435 B.C. </em></p>
+  
+  <img src="zeus.jpg" alt="Statue of Zeus at Olympia" width="175" height="126" class="imgLeft"><!--  Insert zeus.jpg here. Alt text is "Statue of Zeus at Olympia". Apply .imgLeft style.  -->
+  
+  <p>The <strong>Statue of Zeus at Olympia</strong> is one of the classical Seven Wonders of the Ancient World. It was carved by the famed Classical sculptor Phidias (5th century BC) circa 435 BC in Olympia, Greece.</p>
+  <p>The seated statue occupied the whole width of the aisle of the  temple that was built to house it. According to a contemporary source,  it was about 12 metres (~37 feet) tall. &quot;It seems that if Zeus were to  stand up,&quot; the geographer Strabo noted early in the 1st century BC, &quot;he would unroof the temple.&quot; Zeus was carved from ivory (technically the ivory was soaked in a liquid  that made it softer, so it was probably both carved and shaped as  necessary) then covered with gold plating (thus chryselephantine) and was seated on a magnificent throne of cedarwood, inlaid with ivory, gold, ebony, and precious stones. In Zeus' right hand there was a small statue of Nike, the goddess of victory, and in his left hand, a shining sceptre on which an eagle perched [1] Visitors like the Roman general Aemilius Paulus, the victor over Macedon, were moved to awe by the godlike majesty and splendor that Phidias had captured.</p>
+  <p>The circumstances of its eventual destruction are a source of  debate: some scholars argue that it perished with the temple in the 5th  century AD, others argue that it was carried off to Constantinople, where it was destroyed in the great fire of the Lauseion (Schobel 1965). According to Lucian of Samosata in the later second century, &quot;they have laid hands on your person at  Olympia, my lord High-Thunderer, and you had not the energy to wake the  dogs or call in the neighbours; surely they might have come to the  rescue and caught the fellows before they had finished packing up the  swag.&quot;</p>
+  <p><a href="#Top">Return to top</a></p>
+  
+  
+  <h2><a name="Mausoleum"></a><span class="bignumber">5</span>. Mausoleum of Maussollos</h2>
+  <p class="hilight"><em>351 B.C. </em></p>
+  
+  <img src="mausoleum.jpg" alt="Mausoleum of Maussollos" width="176" height="130" class="imgRight"><!--  Insert mausoleum.jpg here. Alt text is "Mausoleum of Maussollos". Apply .imgRight style.  -->
+  
+  <p>The <strong>Mausoleum of Maussollos</strong>, or Mausoleum of Halicarnassus was a tomb built between 353-350 BC at Halicarnassus (present Bodrum, Turkey), for Mausolus (Greek &Mu;&alpha;&#8059;&sigma;&omega;&lambda;&omicron;&sigmaf; <em>Ma&uacute;s&#333;los</em>), a provincial king in the Persian Empire, and Artemisia, his wife and sister.</p>
+  <p>It was designed by the Greek architects Satyrus and Pythius.  The structure was approximately 45-metres (135 feet) in height, and  each of the four sides was adorned by a freize created by one of four  famous Greek sculptors.</p>
+  <p>The finished structure was considered to be such an aesthetic triumph that Antipater of Sidon identified it as one of his Seven Wonders of the World.</p>
+  <p>The word mausoleum has since come to be used generically for any grand tomb, though &quot;Mausol-eum&quot; originally meant &quot;in honour of Mausol&quot;.  </p>
+  <p><a href="#Top">Return to top</a></p>
+  
+  
+  <h2><a name="Colossus"></a><span class="bignumber">6</span>. Colossus of Rhodes</h2>
+  <p class="hilight"><em>292-280 B.C. </em></p>
+  
+  <img src="colossus.jpg" alt="Colussus of Rhodes" width="176" height="130" class="imgLeft"><!--  Insert colossus.jpg here. Alt text is "Colussus of Rhodes". Apply .imgLeft style.  --><p><strong>The Colossus of Rhodes</strong> was a giant statue of the god Helios, erected on the Greek island of Rhodes by Chares of Lindos between 292 BC and 280 BC. It was roughly the same size as the Statue of Liberty in New York, although it stood on a lower platform. It was one of the Seven Wonders of the World.</p>
+  <p>In 1989,  a stone construction resembling a gigantic human fist was found in the  sea of Rhodes. It was supposed that it was the first discovery of a  part of the Colossus. However it was decided that it was only stone and  mud debris thrown in the sea by a bulldozer.</p>
+  <p>There has been much debate as to whether to rebuild the Colossus. Those for it say it would boost tourism in Rhodes greatly, but those against construction say it would cost too large an amount (over 100 million euro).  This idea has been proposed many times since it was first proposed in  1970 but, due to lack of funding, work has not yet started. The plans  for the Colossus have been in the works since 1998 by the Greek-Cypriot  artist Nikolaos Kotziamanis. </p>
+  <p><a href="#Top">Return to top</a></p>
+  
+  
+  <h2><a name="Lighthouse"></a><span class="bignumber">7</span>. Lighthouse of Alexandria</h2>
+  <p class="hilight"><em>3rd Century B.C. </em></p>
+  
+  <img src="lighthouse.jpg" alt="Lighthouse of Alexandria" width="176" height="129" class="imgRight"><!--  Insert lighthouse.jpg here. Alt text is "Lighthouse of Alexandria". Apply .imgRight style.  -->
+  <p>The <strong>Pharos of Alexandria</strong> was a lighthouse built in the 3rd century BC on the island of Pharos in Alexandria, Egypt to serve as that port's landmark, and later, a lighthouse.</p>
+  <p>With a height variously estimated at between 115 and 135 metres (383  - 440 ft) it was among the tallest man-made structures on Earth for  many centuries, and was identified as one of the Seven Wonders of the World by Antipater of Sidon.</p>
+  <p>It ceased operating and was largely destroyed as a result of two earthquakes in the 14th century AD; some of its remains were found on the floor of  Alexandria's Eastern Harbour by divers in 1994. More of the remains  have subsequently been revealed by satellite imaging.</p>
+  <p>Constructed from large blocks of light-coloured stone, the tower was  made up of three stages: a lower square section with a central core, a  middle octagonal section, and, at the top, a circular section. At its  apex was positioned a mirror which reflected sunlight during the day; a fire was lit at night. Extant Roman coins struck by the Alexandrian mint show that a statue of a triton was positioned on each of the building's 4 corners. A statue of Poseidon stood atop the tower during the Roman period.</p>
+  <p>Legends tell of the light from the Pharos being used to burn enemy  ships before they could reach shore, however this is highly unlikely  due to the relatively poor quality of optics and reflective technology  in the time period in which the building existed. Only slightly less  impressive - and probably more accurate - is the claim that the light  from the lighthouse could be seen up to 35 miles (56 km) from shore.</p>
+  <p><a href="#Top">Return to top</a></p>
+  
+  <h2><a href="wonders_citations.html">Citations</a></h2>
+  
 </div>
 </body>
 </html>
