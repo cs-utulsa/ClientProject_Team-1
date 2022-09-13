@@ -151,6 +151,35 @@ body{
     box-sizing: border-box;
 }
 
+#main h2{
+    font-size:18px;
+}
+
+.progress{
+    position:relative;
+    width:210px;
+    height:30px;
+    background:#cccccc;
+    border-radius: 5px;
+    overflow:hidden;
+}
+
+.progress__fill{
+    width: 0%;
+    height: 100%;
+    background: blue;
+    transition: all 0.2s;
+}
+
+.progress__text{
+    position:absolute;
+    top:20%;
+    right:5px;
+    transform: translate(-20%);
+    font:bold 14px 'Quicksand', sans-serif;
+    color:white;
+}
+
 #main-footer{
     background: #0015ff;
     color:#ffffff;
