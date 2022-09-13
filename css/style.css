@@ -1,0 +1,172 @@
+body{
+    background-color: #ffffff;
+    color:#555555;
+    font-family:sans-serif;
+    font-size:16px;
+    line-height: 1.6em;
+    margin:0;
+}
+
+.icon-button{
+    position:absolute;
+    top:72px;
+    right:100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:50px;
+    height:50px;
+    color:#333333;
+    background:#dddddd;
+    border:none;
+    outline:none;
+    border-radius:50%;
+}
+
+.icon-button:hover{
+    cursor:pointer;
+}
+.icon-button:active{
+    background:#cccccc;
+}
+
+.icon-button__badge{
+    position:absolute;
+    top:-10px;
+    right:-10px;
+    width:25px;
+    height:25px;
+    background:blue;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+#main-header{
+    background-color:#FFD700;
+    color:#0015ff;
+}
+
+#navbar{
+    background:red;
+    color:white;
+}
+
+#navbar ul{
+    padding:0;
+    list-style:none;
+}
+
+#navbar li{
+    display:inline;
+}
+
+#navbar a{
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+.notification-box{
+    width:300px;
+    height:0px;
+    opacity:0;
+    background:#ffffff;
+    position:absolute;
+    top:90;
+    right:35px;
+    transition: 1s opacity, 250ms height;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.notification-box h2{
+    font-size: 14px;
+    padding: 10px;
+    border-bottom: 1px solid #eeeeee;
+    color:#999999;
+}
+
+.notification-box h2 span{
+    color:#f00;
+}
+
+.notification-item{
+    display:flex;
+    background:#ffffff;
+    border-bottom:1px solid #eeeeee;
+    padding: 15px 5px;
+    margin-bottom: 15px;
+    cursor:pointer;
+}
+
+.notification-item:hover{
+    background:#eeeeee;
+}
+
+.notification-item img{
+    display:block;
+    width:50px;
+    height:50px;
+    margin-right:10px;
+    margin-left:20px;
+    border-radius:50%;
+}
+
+.notification-item .text h4 {
+    color:#777;
+    font-size:16px;
+    text-align: center;
+    margin-top:10px;
+}
+
+.notification-item .text p {
+    color:#aaa;
+    font-size:12px;
+    text-align: center;
+}
+
+#showcase{
+    background-image:url('../images/jolt-img.jpg');
+    background-size:600px;
+    background-repeat:no-repeat;
+    background-position:center center;
+    min-height:300px;
+    margin-bottom:30px;
+    text-align:center;
+}
+
+#main{
+    float:left;
+    width:70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+#main h2{
+    font-size:18px;
+}
+
+#main-footer{
+    background: #0015ff;
+    color:#ffffff;
+    text-align: center;
+    padding:20px;
+    margin-top:40px;
+}
+
+@media(max-width:600px)
+{
+    #main{
+        width:100%;
+        float:none;
+    }
+}
