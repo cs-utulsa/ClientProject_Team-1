@@ -1,271 +1,71 @@
-<style>
-* {box-sizing: border-box;}
-ul {list-style-type: none;}
-body {font-family: Verdana, sans-serif;}
-
-.month {
-  padding: 70px 25px;
-  width: 100%;
-  background: #002f5b;
-  text-align: center;
-}
-
-.month ul {
-  margin: 0;
-  padding: 0;
-}
-
-.month ul li {
-  color: white;
-  font-size: 20px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-}
-
-.month .prev {
-  float: left;
-  padding-top: 10px;
-}
-
-.month .next {
-  float: right;
-  padding-top: 10px;
-}
-
-.weekdays {
-  margin: 0;
-  padding: 10px 0;
-  background-color: #ddd;
-}
-
-.weekdays li {
-  display: inline-block;
-  width: 13.6%;
-  color: #666;
-  text-align: center;
-}
-
-.days {
-  padding: 10px 0;
-  background: #eee;
-  margin: 0;
-}
-
-.days li {
-  list-style-type: none;
-  display: inline-block;
-  width: 13.6%;
-  text-align: center;
-  margin-bottom: 5px;
-  font-size:12px;
-  color: #777;
-}
-
-.days li .active {
-  padding: 5px;
-  background: #002f5b;
-  color: white !important
-}
-
-/* Add media queries for smaller screens */
-@media screen and (max-width:720px) {
-  .weekdays li, .days li {width: 13.1%;}
-}
-
-@media screen and (max-width: 420px) {
-  .weekdays li, .days li {width: 12.5%;}
-  .days li .active {padding: 2px;}
-}
-
-@media screen and (max-width: 290px) {
-  .weekdays li, .days li {width: 12.2%;}
-}
-</style>
 <!DOCTYPE HTML>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Index- Emily Mathew</title>
-<link href="hola/hola.css" rel="stylesheet" type="text/css">
-<!-- Created by emily mathew on 2/9/2017-->
+
+	<link rel="shortcut icon" href="favicon_moon.png">
+	<!--Created by Emily Mathew on 5/2/17 in 5th period-->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Artemis Home- Emily Mathew</title>
+	<link href="moon.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-<div class="bannerCenter"><img src="hola/hola.jpg" alt="Bannar" width="700" height="208">
-</div>
-<div id="navbarWrapper">
-  <div id="navbar">
-    <ul>
-      
-      <li><a href="#dates2"><u>Home</u></a></li>
-      <li><a href="#about"><u>Points</u></a></li>
-      <li><a href="#apply"><u>Calendar</u></a></li>
-      <li><a href="#contact"><u>Contact</u></a></li>
-      
-     </ul>
-     </div>
-   </div>
-<div id="wrapper">
-
-  <p align=center><em><a name="dates2"></a>A center for students to take calculated risks,<br> grow their talents, and discover their true potential.</em></p>
-<div id="dates">
-  	<h4>Tutoring Sessions</h4>
-    <ul>
-      <li>Room P109</li>
-      <li>Every Tuesday and Thursday</li>
-      <li>The portables are located in the  parking lot</li>
-    </ul>
-</div>
-	<hr>
-	<h2><a name="about"></a>About Us</h2>
-<!-- add points stuff here-->
-	<h3>Who are we?</h3>
-	<p>We are a student-run peer-tutoring organization, sponsored by Mr. Crouch, dedicated to providing resources to the ESL students at PESH through biweekly tutoring sessions. We also offer Volunteer hours for tutors.</p>
-
-  <h3>Where we are</h3>
-	<p>Currently, we are located at Plano East Senior High School. But due to our apparent success, we have begun  this tutoring program at other schools like Armstrong Middle School.</p>
-
-  <h3>Why we are important</h3>
-	<p>Peer tutoring provides a chance to help a student who may be struggling academically. Moreover, it is an opportunity to step outside of one's comfort zone, meet new people, and make new experiences.</p>
-  <hr>
-	<h2><a name="apply"></a>Sign Up</h2>
+	<div id="wrapper">
+  		<p><img src="banner_moon.jpg" width="800" height="200" alt="banner"></p>
   
-  <h1>CSS Calendar</h1>
-
-<div class="month">      
-  <ul>
-    <li class="prev">&#10094;</li>
-    <li class="next">&#10095;</li>
-    <li>
-      August<br>
-      <span style="font-size:18px">2021</span>
-    </li>
-  </ul>
-</div>
-
-<ul class="weekdays">
-  <li>Mo</li>
-  <li>Tu</li>
-  <li>We</li>
-  <li>Th</li>
-  <li>Fr</li>
-  <li>Sa</li>
-  <li>Su</li>
-</ul>
-
-<ul class="days">  
-  <li>1</li>
-  <li>2</li>
-  <li>3</li>
-  <li>4</li>
-  <li>5</li>
-  <li>6</li>
-  <li>7</li>
-  <li>8</li>
-  <li>9</li>
-  <li><span class="active">10</span></li>
-  <li>11</li>
-  <li>12</li>
-  <li>13</li>
-  <li>14</li>
-  <li>15</li>
-  <li>16</li>
-  <li>17</li>
-  <li>18</li>
-  <li>19</li>
-  <li>20</li>
-  <li>21</li>
-  <li>22</li>
-  <li>23</li>
-  <li>24</li>
-  <li>25</li>
-  <li>26</li>
-  <li>27</li>
-  <li>28</li>
-  <li>29</li>
-  <li>30</li>
-  <li>31</li>
-</ul>
+  	<div id="navbar">
+    	<ul>
+      		<li><a href="index.html">Home</a></li>
+      		<li><a href="products.html">Products</a></li>
+      		<li><a href="order.html">Order</a></li>
+      		<li><a href="citations.html">Citations</a></li>
+    	</ul>
+  	</div>
   
+  	<div class="imgLeft">
+    <div class="imgLeft">
+      <p><img src="logo_moon.jpg" width="160" height="160" alt="logo"></p>
+  	</div>
+  	</div>
+
+  	<h2>Who are we?</h2>
+  		<p>Artemis  is a humanitarian effort dedicated towards enhancing the human race in  preparation for our exploration of the cosmos. We were founded in 2164 after  the population expedition of Mars by Pilot Alessia  Adrian of the original  Artemis space expedition to Jupiter in 2078. While we are partnered with  various governments across the globe, our main headquarters is in 3735 Farmhouse  Rd, Houston, TX. If you have questions please call <em>987-476-2689</em> or email <a href="mailto:Artemis_home@gmail.com">Artemis_home@gmail.com</a>.</p>
+  <br>
+        <br>
+  	
+  	<h2>What do we sell?</h2>
+  		<p> All products sold by Artemis are organic products found on  the moon itself. Currently, we only offer our signature  Moonstones&#8482; -genetically enhancing gemstones that we mine on our base  on the moon- but Artemis is proud to announce that in the next few years,  additional commodities like Moon Dust&#8482; and Moonlight&#8482; will be available to  consumers as well. (For more information on Moonstones&#8482;, please go to our products page.)</p>
+    <center><p><img src="gem_home.jpg" width="160" height="160" alt="three gems"></p></center>
   
-  
-	<p>Join the HOLA Remind for updates by texting 81010 @peshhola or email us at contactholaclub@gmail.com. We have posted a SignUp Genius with information on how to sign up.</p>
-	<p>In order to become a peer-tutor, complete the application after signing up for HOLA.</p>
-	<p> <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUx58C6qr6E1XzU9sAOimrI2pnOPGMN30vpEB1bXaVBJnBRQ/viewform?usp=sf_link">Tutoring Profile</a></p>
+ 
+  		<p>Moon Dust&#8482; are unique types of powders found on the moon that  can be incorporated into medicines, foods, etc. and consumed to receive certain  enhancements. They will be offered in Black Dust&#8482; (which enhances stealth), Grey  Dust&#8482; (which decreases gravities effect on the human body), and White Dust&#8482;  (which enhances human healing and is to be incorporated solely with medicines).  </p>
+  		<center><p><img src="moon_dust.jpg" alt="grey and white dust" width="160" height="160"></p></center>
+  		<p>Moonlight&#8482; will be sold within the next decade. It is lunar-radiation that our  scientists are currently engineering to be safer for human application. Unlike  Moon Dust&#8482; or even Moonstones&#8482;, the effects of Moonlight&#8482; will be permanent and  its final stage of development will be our last product. There will be two  types (enhancement explanations to be added in 2 years); which are  Sun-reflected Moonlight&#8482; and Moon-made Moonlight&#8482;.</p>
+  		<center><p><img src="moon_light.jpg" width="160" height="160" alt="white and yellow light"></p></center>
 <hr>
-	<h2><a name="contact"></a>Contact Info</h2>
-	<p>If you are a student or a student tutor, contact us at <a href="mailto:contactholaclub@gmail.com">contactholaclub@gmail.com</a> for information about sessions or sign-ups.</p>
-    <div class="contactCenter">
-  <p>Have Questions? Contact our sponsor,</p>
+  
+  	<center>
+    <h3><em>Satisfied Customers</em></h3>
+ 	</center>
 
-  <p><strong>Mr. Crouch</strong> at <a href="mailto:stephen.crouch@pisd.edu">stephen.crouch@pisd.edu</a></p>
-  <p>&nbsp; </p>
-<p>Or, find our officers,</p>
+	<p class="round1">"These stones are SO much <strong>better that Apollo's</strong> stuff!!"<br>
+  	<em>- Alexia  McGraw</em></p>
 
-<center>
-
-<table style="width:50%">
-  <tr>
-    <th>Senior Officers</th>
- 	</tr>
+ 	 <p class="round2">&quot;This has got to be the <strong>best enhancements</strong> I have ever bought! I would totally recommend   these to my friends and family.&quot;<br>
+  	<em>-Mathew George  </em></p>
+  
+  	<p class="round1">&quot;I can't believe   the progress Artemis has made towards <strong>helping humankind and space exploration!</strong> I am so happy to have bought their products!&quot; <br>
+  	<em>-Tory Henderson</em></p>
+  
+  	<p class="round2">&quot;I <strong>love</strong> Moonstones! I can't wait for Artemis's <strong>new products!</strong>&quot;<br>
+  	<em>-Jasper Thomas</em></p>
     
-  <tr>
-    <td>Meghan Mallya</td>
-  </tr>
-  
-  <tr>
-    <td>Anoop Gurram</td>
-  </tr>
-  
-  <tr>
-    <td>Jordan McMurry</td>
-  </tr>
-    
-  <tr>
-    <td>Quynh-Anh Dang</td>
-  </tr>
-  
-    <tr>
-    <td>Quynh-Chi Dang</td>
-	</tr>
-</table>
-</center>
-
-<br>
-<center>
-
-<table style="width:50%">
-  <tr>
-    <th>Underclassmen Officers</th>
- 	</tr>
-    
-  <tr>
-    <td>Maddie Badowski</td>
-  </tr>
-  
-  <tr>
-    <td>Maya Mallya</td>
-  </tr>
-  
-  <tr>
-    <td>Ronnie Ramos</td>
-  </tr>
-
-  <tr>
-    <td>Vedansh Patel</td>
-  </tr>
-    
-  <tr>
-    <td>Sabeen Wazir</td>
-  </tr>
-  
-</table>
-
-</center>
-
-  </div>
   <hr>
-    <div class="credentials">This website was created by Emily Mathew, a sophmore who attends PESH.</div>
-</div>
+  
+  <p><em>Sponsored by Papush</em></p>
+  <center><img src="papush_ad.gif" width="750" height="90" alt="papush company ad by Timmy Ren"> </center>
+	</div>
+    
 </body>
+<!--Created by Emily Mathew on 5/2/17 in 5th period-->
 </html>

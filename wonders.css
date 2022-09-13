@@ -1,0 +1,62 @@
+/*--- Created by Emily Mathew on 1/11/2017 ---*/
+/*--- IDs ---*/
+#wrapper {
+	background: #ffffff;
+	padding: 20px;
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+}
+/*--- element definitions ---*/
+body {
+	font: 12px Georgia, "Times New Roman", Times, serif;
+	background: #28001D;
+}
+strong {
+	color: #28001D;
+}
+em {
+	color: #28001D;
+}
+h1 {
+	font: 28px "Courier New", Courier, monospace;
+	color: #28001D;
+	background: #87F1E7;
+	padding: 15px;
+}
+h2 {
+	font: 22px "Courier New", Courier, monospace;
+	color: #28001D;
+}
+/*--- link styles ---*/
+a:link {
+	color: #F73E5E;
+}
+a:visited {
+	color: #28001D;
+}
+a:hover {
+	color: #92a9ff;
+	text-decoration: none;
+	background: #fff8de;
+}
+a:active {
+	color: #28001D;
+	text-decoration: underline;
+}
+/*--- custom classes ---*/
+.imgRight {
+	margin: 0px 0px 0px 10px;
+	float: right;
+}
+.imgLeft {
+	margin: 0px 10px 10px 0px;
+	float: left;
+}
+.bignumber {
+	font-size: 65px;
+	color: #F73E5E;
+}
+.hilight {
+	background: #dbcba7;
+}

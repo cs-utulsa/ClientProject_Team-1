@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Created by Emily Mathew on 5/2/17 in 5th period*/
+
+
+/*html*/
+
+h1 {
+	color: #4b72d4;
+	text-decoration: none;
+}
+
+h2 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #4b72d4;
+}
+
+body {
+	background: black;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+
+/*div tags*/
+
+#wrapper {
+	background: #FFF;
+	padding: 10px 20px 20px;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+/*classes*/
+.imgLeft {
+	margin: -2px 4px 10px 0px;
+	float: left;
+	padding: 5px;
+}
+p.round1 {
+	border: 2px solid #4b72d4;
+	border-radius: 5px;
+	padding: 10px;
+	width: 50%;
+}
+p.round2 {
+	border: 2px solid #4b72d4;
+	border-radius: 5px;
+	padding: 10px;
+	width: 50%;
+	margin-left: 375px;
+}
+
+
+/*navbar*/
+
+#navbar {
+	background: black;
+	width: 100%;
+	font-size: 16px;
+}
+#navbar ul {
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+#navbar ul li {
+	text-align: center;
+	float: left;
+	width: 25%;
+	list-style: none;
+}
+#navbar a {
+	color: white;
+	text-decoration: none;
+	background: black;
+	display: block;
+	padding: 5px;
+}
+#navbar a:hover {
+	color: #4b72d4;
+	text-decoration: none;
+	background: #CCC;
+}
+#navbar a:active {
+	color: black;
+	background: white;
+}
+/*Created by Emily Mathew on 5/2/17 in 5th period*/
