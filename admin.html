@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JOLT - Home</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+         <header id="main-header">
+            <div class="container">
+                <h1>JOLT AT TU BUSINESS</h1>
+            </div>
+        </header>
+
+        <nav id="navbar">
+            <div class="container">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Calendar</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <button type="button" class="icon-button" onclick="toggleNotification()">
+                <span class="material-icons">notifications</span>
+                <span class="icon-button__badge">3</span>
+            </button>
+            <div class="notification-box" id="box">
+                <h2>Notifications <span>3</span></h2>
+
+                <div class="notification-item">
+                    <img src="images/blankProfile.png" alt="">
+                    <div class="text">
+                        <h4>Student 1</h4>
+                        <p>This student has earned enough points to be awarded a badge.</p>
+                    </div>
+                </div>
+
+                <div class="notification-item">
+                    <img src="images/blankProfile.png" alt="">
+                    <div class="text">
+                        <h4>Student 2</h4>
+                        <p>This student has earned enough points to be awarded a badge.</p>
+                    </div>
+                </div>
+
+                <div class="notification-item">
+                    <img src="images/blankProfile.png" alt="">
+                    <div class="text">
+                        <h4>Student 3</h4>
+                        <p>This student has earned enough points to be awarded a badge.</p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <script src="js/dropdown.js"></script>
+
+        <section id="showcase">
+        </section>
+        <div class="container">
+            <section id="main">
+                <h1>Welcome, Administrator</h1>
+                <p>On this page, you can manage JOLT members points and see their progress towards earning the critical thinker badge.</p>
+
+                <h1>JOLT Members</h1>
+                <h2>Student 1</h2>
+                <p>
+                    This student has 25 out of 25 points!
+                </p>
+                <h2>Student 2</h2>
+                <p>
+                    This student has 25 out of 25 points!
+                </p>
+                <h2>Student 3</h2>
+                <p>
+                    This student has 25 out of 25 points!
+                </p>
+                <h2>Student 4</h2>
+                <p>
+                    This student has earned 15 out of 25 points!
+                </p>
+                <h2>Student 5</h2>
+                <p>This student has earned 0 out of 25 points!
+
+                </p>
+    
+            </section>
+        </div>
+        <footer id="main-footer">
+            <p>Copyright &copy; 2022 JOLT @ TU Business</p>
+        </footer>
+    </body>
+</html>
