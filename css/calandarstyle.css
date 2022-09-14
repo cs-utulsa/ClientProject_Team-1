@@ -32,7 +32,7 @@ body {
             &:before {
                 content: "";
                 position: absolute;
-                background-color: #0015ff;
+                background-color: #f0932b;
                 border-radius: 50%;
                 width: 2rem;
                 height: 2rem;
@@ -141,7 +141,7 @@ body {
                 color: #fff;
             }
             &.selected {
-                background-color: #0015ff;
+                background-color: #f0932b;
                 color: #fff;
             }
             .link {
