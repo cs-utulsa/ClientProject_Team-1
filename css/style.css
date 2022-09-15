@@ -144,6 +144,11 @@ body{
     text-align:center;
 }
 
+#calendar img{
+    width: 100%;
+    height: auto;
+}
+
 #main{
     float:left;
     width:70%;
